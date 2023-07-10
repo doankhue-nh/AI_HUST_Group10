@@ -1,0 +1,13 @@
+Ultralytics YOLOv8.0.130 🚀 Python-3.10.12 torch-2.0.1+cu118 CUDA:0 (Tesla T4, 15102MiB)
+Model summary (fused): 168 layers, 3006233 parameters, 0 gradients
+Downloading https://ultralytics.com/assets/Arial.ttf to /root/.config/Ultralytics/Arial.ttf...
+100% 755k/755k [00:00<00:00, 26.4MB/s]
+val: Scanning /content/drive/MyDrive/yolov8/data/labels/test... 755 images, 0 backgrounds, 0 corrupt: 100% 755/755 [04:32<00:00,  2.77it/s]
+val: New cache created: /content/drive/MyDrive/yolov8/data/labels/test.cache
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% 48/48 [00:16<00:00,  2.96it/s]
+                   all        755       2725      0.928      0.888       0.93       0.66
+                  head        755        694      0.947      0.926      0.963       0.67
+                helmet        755       1891      0.959      0.939      0.978      0.693
+                 other        755        140      0.878        0.8       0.85      0.619
+Speed: 1.0ms preprocess, 6.0ms inference, 0.0ms loss, 1.2ms postprocess per image
+Results saved to runs/detect/val2

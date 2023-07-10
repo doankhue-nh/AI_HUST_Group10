@@ -1,0 +1,10 @@
+Ultralytics YOLOv8.0.130 🚀 Python-3.10.12 torch-2.0.1+cu118 CUDA:0 (Tesla T4, 15102MiB)
+Model summary (fused): 168 layers, 3006038 parameters, 0 gradients
+val: Scanning /content/drive/MyDrive/yolov8/data0/labels/test... 704 images, 0 backgrounds, 0 corrupt: 100% 704/704 [02:17<00:00,  5.11it/s]
+val: New cache created: /content/drive/MyDrive/yolov8/data0/labels/test.cache
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% 44/44 [00:12<00:00,  3.40it/s]
+                   all        704       2568      0.946      0.939      0.976      0.689
+                  head        704        680      0.936      0.928       0.97      0.685
+                helmet        704       1888      0.956      0.949      0.982      0.694
+Speed: 0.8ms preprocess, 5.6ms inference, 0.0ms loss, 1.4ms postprocess per image
+Results saved to runs/detect/val3
